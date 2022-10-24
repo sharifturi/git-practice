@@ -21,12 +21,10 @@ $ git init bcs-a-devops
 
 $ git status 
 
-$ git branch sharifturi-newbranch
-
 $ git checkout -b newbranch
 
    Master
-*  sharukhCode
+*  newbranch
 
 
 $ git switch master
