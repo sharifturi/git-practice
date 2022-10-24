@@ -1,0 +1,102 @@
+$ sudo SU // only for linux
+
+===========================
+
+C:\xampp\htdocs\BCS-A-DevOps>cls
+
+
+
+
+mkdir bcs-a-devops
+
+cd bcs-a-devops
+
+$ git config --global user.name "sharifturi1"
+
+$ git config --global user.email sharif.netroots@gmail.com
+
+$ git config --global --list
+
+$ git init bcs-a-devops
+
+$ git status 
+
+$ git branch sharukhCode
+
+$ git checkout -b sharukhCode
+
+$ git checkout sharukhCode
+
+   Master
+*  sharukhCode
+
+$ git checkout -b UsmanCode
+
+$ git switch master
+
+// To delet the branch
+
+$ git branch -d sharukhCode
+
+$ git stash
+
+$ git stash list
+
+$ git stash apply@{0}
+
+$ git stash clear
+
+// Reset commond are use for before commit
+
+$ git reset <filename>
+
+$ git reset .
+
+$ git reset --hard
+
+// Revert Commands are used for undo or existing commit
+
+$ git revert
+
+$ git revert <Commit_ID>
+
+# /// Choose any Editor for coding
+
+$ git add .
+
+$ git add -A
+
+$ git add <filename>
+
+$ git commit -m "Type your message here..."
+
+$ git push -u origin  master
+
+$ git push --set-upstream origin master
+
+$ git push --all
+
+$ git stash
+
+$ git log (After Git Log press shift+q)
+
+$ git show <commit_id>
+
+
+$ git tag -a v1.4 -m "my version 1.4"
+
+
+# For 2nd persone Git procces
+
+$ git remote add origin git@github.com:sharifturi/builder_contractors.git
+
+$ git remote add origin https://github.com/sharifturi/builder_contractors.git
+
+$ git remote set-url origin https://github.com/sharifturi/builder_contractors.git
+
+$ git remote set-url origin https://github.com/sharifturi/JavaSampleWebApp.git
+
+$ git push origin master
+
+
+
