@@ -72,7 +72,9 @@ $ git commit -m "Type your message here..."
 
 $ git push -u origin  master
 
-$ git push --set-upstream origin master
+$ git push -u origin  master
+
+$ git push origin master --force
 
 $ git push --all
 
@@ -87,6 +89,8 @@ $ git tag -a v1.4 -m "my version 1.4"
 
 
 # For 2nd persone Git procces
+
+$ git remote add origin https://github.com/sharifturi/git-practice
 
 $ git remote add origin git@github.com:sharifturi/builder_contractors.git
 
