@@ -2,7 +2,6 @@ $ sudo SU // only for linux
 
 ===========================
 
-
 mkdir git-practice
 
 C:\xampp\htdocs\git-practice
