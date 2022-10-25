@@ -47,7 +47,7 @@ $ git switch newcode_1
 *  newcode_1
 
 
-
+$ git log
 
 
 # For 2nd persone Git procces
