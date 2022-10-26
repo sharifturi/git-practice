@@ -78,10 +78,6 @@ $ git clone https://github.com/sharifturi/git-practice
 
 $ git remote add origin https://github.com/sharifturi/git-practice
 
-$ git remote add origin git@github.com:sharifturi/builder_contractors.git
+$ git remote add origin git@github.com:sharifturi/git-practice.git
 
-$ git remote add origin https://github.com/sharifturi/builder_contractors.git
-
-$ git remote set-url origin https://github.com/sharifturi/builder_contractors.git
-
-//just for testing
+$ git remote set-url origin https://github.com/sharifturi/git-practice.git
