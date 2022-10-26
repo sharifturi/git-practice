@@ -58,6 +58,7 @@ $ git switch newcode_1
 $ git log
 
 $ git show 0a8bd0d1
+
 // github Proccess
 
 https://github.com/
@@ -74,10 +75,27 @@ $ git remote add origin https://github.com/sharifturi/git-practice
 
 # For 2nd persone Git procces
 
-$ git clone https://github.com/sharifturi/git-practice
+// Create Directory
+
+$mkdir git-practice
+
+$ git init
 
 $ git remote add origin https://github.com/sharifturi/git-practice
 
+$ git remote set-url origin https://github.com/sharifturi/git-practice.git
+
 $ git remote add origin git@github.com:sharifturi/git-practice.git
 
-$ git remote set-url origin https://github.com/sharifturi/git-practice.git
+
+$ git pull -u origin master
+
+$ git status
+
+$ git log
+
+
+
+
+
+
