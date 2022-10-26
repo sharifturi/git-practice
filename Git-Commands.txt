@@ -57,7 +57,7 @@ $ git switch newcode_1
 
 $ git log
 
-
+$ git show 0a8bd0d1
 // github Proccess
 
 https://github.com/
