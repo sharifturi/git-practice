@@ -93,9 +93,3 @@ $ git pull -u origin master
 $ git status
 
 $ git log
-
-
-
-
-
-
