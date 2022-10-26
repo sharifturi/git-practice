@@ -1,5 +1,21 @@
 $ sudo SU // only for linux
 
+
+C:\Users\DELL>git --version
+git version 2.38.0.windows.1
+
+C:\Users\DELL>where git
+C:\Program Files\Git\cmd\git.exe
+
+$ git config --global user.name "sharifturi1"
+
+$ git config --global user.email sharif.netroots@gmail.com
+
+C:\Users\DELL>git config --list
+init.defaultbranch=master
+user.email=sharif.netroots@gmail.com
+user.name=sharifturi1
+
 ===========================
 
 mkdir git-practice
@@ -8,17 +24,10 @@ C:\xampp\htdocs\git-practice
 
 cd git-practice
 
-$ git config --global user.name "sharifturi1"
-
-$ git config --global user.email sharif.netroots@gmail.com
-
-$ git config --global --list
-
 $ git init git-practice
 
 $ git status
 
-$ git remote add origin https://github.com/sharifturi/git-practice
 
 # /// Choose any Editor for coding
 
@@ -47,6 +56,20 @@ $ git switch newcode_1
 
 
 $ git log
+
+
+// github Proccess
+
+https://github.com/
+
+
+1: github registration
+
+2: Login to github
+
+3: Create a repository
+
+$ git remote add origin https://github.com/sharifturi/git-practice
 
 
 # For 2nd persone Git procces
